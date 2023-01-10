@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Prosto+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    color: grey;
+    font-family: 'Prosto One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 700px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+}
+
+h3 {
+    font-family: 'Fraunces', serif;
+}
+
+h4 {
+    font-family: 'Prosto One', cursive;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Prosto One', cursive;
+    font-size: 14px;
+    color: grey;
+}
+
+.description {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 600px;
+}
+
